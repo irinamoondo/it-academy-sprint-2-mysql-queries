@@ -1,18 +1,18 @@
 # it-academy-sprint-2-mysql-queries
 
-Base de dades Tienda
+# Base de dades Tienda
 
 Tenim les taules producto i fabricante, cadascuna amb els següents camps:
 
-- producto (codigo, nombre, precio, codigo_fabricante)
+ - producto (codigo, nombre, precio, codigo_fabricante)
 
-- fabricante (codigo, nombre)
+ - fabricante (codigo, nombre)
 
 El preu està en euros(€).
 
 El camp 'codigo_fabricante' de l'entitat producto es relaciona amb el camp 'codi' de l'entitat fabricante.
 
-Si us plau, efectua les siguentes consultes:
+# Si us plau, efectua les siguentes consultes:
 
 Llista el nom de tots els productos que hi ha en la taula producto.
 Llista els noms i els preus de tots els productos de la taula producto.
@@ -56,7 +56,7 @@ Llista el nom del producte més barat del fabricant Hewlett-Packard.
 Retorna tots els productes de la base de dades que tenen un preu major o igual al producte més car del fabricant Lenovo.
 Llesta tots els productes del fabricant Asus que tenen un preu superior al preu mitjà de tots els seus productes.
 
-Base de dades Universidad
+# Base de dades Universidad
 
 Si us plau, descàrrega la base de dades del fitxer schema_universidad.sql, visualitza el diagrama E-R en un editor i efectua les següents consultes:
 
@@ -78,7 +78,7 @@ Retorna un llistat amb els professors que no imparteixen cap assignatura.
 Retorna un llistat amb les assignatures que no tenen un professor assignat.
 Retorna un llistat amb tots els departaments que no han impartit assignatures en cap curs escolar.
 
-Consultes resum:
+# Consultes resum:
 
 Retorna el nombre total d'alumnes que hi ha.
 Calcula quants alumnes van néixer en 1999.
